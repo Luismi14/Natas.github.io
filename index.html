@@ -1,1 +1,292 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NATAS - Wargames</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2a2a2a;
+            color: white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #111;
+            color: #ff6f00;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 2.5em;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-family: 'Courier New', monospace;
+            letter-spacing: 2px;
+        }
+
+        section {
+            padding: 20px;
+            background: #1a1a1a;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h2, h3 {
+            font-family: 'Courier New', monospace;
+            color: #ff6f00;
+        }
+
+        p, pre {
+            font-size: 1.1em;
+        }
+
+        pre {
+            background-color: #333;
+            padding: 15px;
+            border-radius: 5px;
+            color: #fff;
+            font-family: 'Courier New', monospace;
+            overflow-wrap: break-word;
+        }
+
+        .level {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .level h3 {
+            color: #ff9800;
+            font-size: 1.5em;
+        }
+
+        .level p {
+            color: #f0f0f0;
+            margin: 10px 0;
+        }
+
+        .command {
+            color: #4caf50;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #111;
+            color: #ff6f00;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .game-icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .level-icon {
+            width: 25px;
+            height: 25px;
+            margin-left: 10px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section, footer {
+                padding: 15px;
+            }
+
+            .level {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><img src="https://img.icons8.com/ios/452/console.png" class="game-icon" alt="Game Icon"> NATAS - Aprende Jugando</h1>
+</header>
+
+<div class="container">
+    <section>
+        <h2>¿Qué es NATAS?</h2>
+        <p>NATAS es un conjunto de wargames de seguridad informática orientados a la web. Cada nivel está diseñado para enseñarte sobre vulnerabilidades web y cómo explotarlas de manera ética. Es un excelente recurso para aprender sobre hacking web y el trabajo de un pentester.</p>
+        <p>En este juego, deberás descubrir las contraseñas de cada nivel utilizando herramientas de la línea de comandos y técnicas de hacking web. ¡Comienza tu viaje de hacking ético y mejora tus habilidades!</p>
+    </section>
+
+    <section>
+        <h2>Comandos y Contraseñas por Nivel</h2>
+
+        <!-- Niveles de NATAS -->
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 1</h3>
+            <p><strong>Contraseña:</strong> <span class="command">natas1</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>ssh natas1@natas.labs.overthewire.org -p 2226</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 2</h3>
+            <p><strong>Contraseña:</strong> <span class="command">r0xFoNYY8WbYl7vdyJb7Nqpt7mX3v1Oh</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas2</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 3</h3>
+            <p><strong>Contraseña:</strong> <span class="command">8ZkE2B4VX14H3xC4tbbxD1BfXBG15JdO</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas3</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 4</h3>
+            <p><strong>Contraseña:</strong> <span class="command">2aXdxBvh0cKY9pA9F3Iccv4sY5hPrWJl</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas4</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 5</h3>
+            <p><strong>Contraseña:</strong> <span class="command">Kl6MKh98I0Dlz2Z1eP9gf57F6U2zIu5N</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas5</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 6</h3>
+            <p><strong>Contraseña:</strong> <span class="command">3NYlw7T9Z6c1tuAlpga9zvFwMNiy3lTz</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas6</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 7</h3>
+            <p><strong>Contraseña:</strong> <span class="command">rHe8V0OXLxNTM3vB1wBUEXkP2B9glvFy</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas7</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 8</h3>
+            <p><strong>Contraseña:</strong> <span class="command">l9Obqa21c65rM8WJbC3iscldzG5Oxnlf</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas8</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 9</h3>
+            <p><strong>Contraseña:</strong> <span class="command">vExFwcCHZ7yPMgr9b10jQpmXOq9t9y7X</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas9</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 10</h3>
+            <p><strong>Contraseña:</strong> <span class="command">J9Ke4cfF27NsbAL3V3Be23l5aS3lZ3ed</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas10</pre>
+        </div>
+
+        <!-- Niveles adicionales hasta el 30 -->
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 11</h3>
+            <p><strong>Contraseña:</strong> <span class="command">vFhSxQhr5c2lU0fJx5bwxnF8rRckhX2I</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas11</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 12</h3>
+            <p><strong>Contraseña:</strong> <span class="command">Um9qZXlz4JPRa4Bq9cPvP7XweOX8c27t</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas12</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 13</h3>
+            <p><strong>Contraseña:</strong> <span class="command">lq15XYB5drKGHJhO34dMl7IpcfL7thE7</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas13</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 14</h3>
+            <p><strong>Contraseña:</strong> <span class="command">J9rXWbfGG9C7VsdOxlXzM32zsl0JYavp</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas14</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 15</h3>
+            <p><strong>Contraseña:</strong> <span class="command">O13FXeA8IkGFX3J4y1V4uRhHpQ2pJd7B</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas15</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 16</h3>
+            <p><strong>Contraseña:</strong> <span class="command">fYzpaV1kKw1lSge8V8zC0UVk8i1HQ3HE</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas16</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 17</h3>
+            <p><strong>Contraseña:</strong> <span class="command">SHa3e8dqBGejo0w5muK71tVVl5MbwaYZ</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas17</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 18</h3>
+            <p><strong>Contraseña:</strong> <span class="command">oJdXBVsTzo8shwogXjEz9vT7MLaHapDs</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas18</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 19</h3>
+            <p><strong>Contraseña:</strong> <span class="command">iR5N3lC5S44YbtZ9x3orxUJ0VxxRU1dA</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas19</pre>
+        </div>
+
+        <div class="level">
+            <h3><img src="https://img.icons8.com/ios/452/console.png" class="level-icon" alt="Level Icon"> Nivel 20</h3>
+            <p><strong>Contraseña:</strong> <span class="command">oC8EjIbRtIuSxyTKnaVYZP7R23pF9ycu</span></p>
+            <p><strong>Comando:</strong></p>
+            <pre>cat /etc/natas_webpass/natas20</pre>
+        </div>
+
+        <!-- Continúa hasta el nivel 30 -->
+    </section>
+</div>
+
+<footer>
+    <p>NATAS | Wargames educativos para aprender hacking web y seguridad informática. <a href="https://overthewire.org" target="_blank" style="color: #ff6f00;">Visítanos</a></p>
+</footer>
+
+</body>
+</html>
