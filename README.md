@@ -4,4 +4,5 @@
 
 ¡Conéctate, resuelve los retos y mejora tus conocimientos en seguridad web!
 
-👉 Para más detalles, visita [OverTheWire: NATAS](https://overthewire.org/wargames/natas/)
+👉 Para más detalles y acceso a los niveles de NATAS, visita:  
+[NATAS en GitHub Pages](https://luismi14.github.io/Natas.github.io/)
