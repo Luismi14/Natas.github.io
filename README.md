@@ -1,13 +1,7 @@
-# NATAS - Wargames de Seguridad Web
+# 🌐 NATAS - Wargames de Seguridad Web
 
-**NATAS** es una serie de wargames diseñados para aprender sobre seguridad web mediante la explotación de vulnerabilidades. A través de una serie de niveles, los jugadores deben encontrar contraseñas y superar desafíos relacionados con fallos comunes en aplicaciones web, como inyecciones SQL, manejo incorrecto de autenticación y mucho más.
+**NATAS** es una serie de wargames educativos diseñados para enseñar **seguridad web**. A través de sus niveles, aprenderás a identificar y explotar vulnerabilidades comunes como **inyección SQL**, **XSS**, y mucho más. Es una forma divertida y práctica de mejorar tus habilidades en **hacking ético**.
 
-Cada nivel te enseñará conceptos clave de hacking ético y pruebas de penetración, ayudándote a mejorar tus habilidades de seguridad informática en un entorno controlado.
+¡Conéctate, resuelve los retos y mejora tus conocimientos en seguridad web!
 
-## ¿Cómo empezar?
-
-Para jugar, simplemente conéctate al servidor correspondiente de cada nivel y sigue los pasos indicados para descubrir las contraseñas. Utiliza comandos de Linux y herramientas de hacking ético para avanzar.
-
-¡Es hora de aprender y mejorar tus habilidades de seguridad web jugando!
-
-Visita [OverTheWire: NATAS](https://overthewire.org/wargames/natas/) para obtener más información.
+👉 Para más detalles, visita [OverTheWire: NATAS](https://overthewire.org/wargames/natas/)
